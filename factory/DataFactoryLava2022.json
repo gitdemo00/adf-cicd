@@ -1,0 +1,9 @@
+{
+	"name": "DataFactoryLava2022",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3cab8f04-6b2d-47ab-a80d-c7fe22168d96",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}

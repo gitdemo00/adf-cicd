@@ -1,0 +1,31 @@
+{
+	"name": "Emploee",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Outputsql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "FName",
+				"type": "char"
+			},
+			{
+				"name": "LName",
+				"type": "char"
+			},
+			{
+				"name": "Salary",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "emp"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

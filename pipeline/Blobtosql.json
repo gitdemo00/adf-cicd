@@ -1,0 +1,100 @@
+{
+	"name": "Blobtosql",
+	"properties": {
+		"activities": [
+			{
+				"name": "Employee cvs to sql",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "DelimitedTextSource",
+						"storeSettings": {
+							"type": "AzureBlobStorageReadSettings",
+							"recursive": true,
+							"enablePartitionDiscovery": false
+						},
+						"formatSettings": {
+							"type": "DelimitedTextReadSettings"
+						}
+					},
+					"sink": {
+						"type": "AzureSqlSink",
+						"writeBehavior": "insert",
+						"sqlWriterUseTableLock": false
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "First Name",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "FName",
+									"type": "String",
+									"physicalType": "char"
+								}
+							},
+							{
+								"source": {
+									"name": "Last Name",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "LName",
+									"type": "String",
+									"physicalType": "char"
+								}
+							},
+							{
+								"source": {
+									"name": "Salary",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Salary",
+									"type": "Int32",
+									"physicalType": "int"
+								}
+							}
+						],
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "EmployeeCSV",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "Emploee",
+						"type": "DatasetReference"
+					}
+				]
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2022-02-18T19:18:25Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
