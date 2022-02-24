@@ -65,6 +65,14 @@
 				]
 			}
 		],
+		"parameters": {
+			"SourcePath": {
+				"type": "string"
+			},
+			"SourceFile": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"lastPublishTime": "2022-02-22T22:22:14Z"
 	},
