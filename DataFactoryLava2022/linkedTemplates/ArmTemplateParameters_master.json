@@ -17,6 +17,9 @@
 		"inputblob_connectionString": {
 			"value": ""
 		},
+		"trigger2_properties_typeProperties_scope": {
+			"value": "/subscriptions/3d0b786f-0663-4a02-8925-507ed56e40d7/resourceGroups/Lavanya_RG/providers/Microsoft.Storage/storageAccounts/datafactorystoragelava"
+		},
 		"containerUri": {
 			"value": ""
 		},
