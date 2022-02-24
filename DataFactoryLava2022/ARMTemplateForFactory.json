@@ -23,6 +23,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'inputblob'"
 		},
+		"trigger2_properties_pipeline1_parameters_SourcePath": {
+			"type": "string",
+			"defaultValue": "@triggerBody().filePath"
+		},
+		"trigger2_properties_pipeline1_parameters_SourceFile": {
+			"type": "string",
+			"defaultValue": "@triggerBody().fileName"
+		},
 		"trigger2_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/3d0b786f-0663-4a02-8925-507ed56e40d7/resourceGroups/Lavanya_RG/providers/Microsoft.Storage/storageAccounts/datafactorystoragelava"
@@ -217,6 +225,14 @@
 				"policy": {
 					"elapsedTimeMetric": {},
 					"cancelAfter": {}
+				},
+				"parameters": {
+					"SourcePath": {
+						"type": "string"
+					},
+					"SourceFile": {
+						"type": "string"
+					}
 				},
 				"annotations": [],
 				"lastPublishTime": "2022-02-22T22:22:14Z"
@@ -464,7 +480,10 @@
 							"referenceName": "pipeline1",
 							"type": "PipelineReference"
 						},
-						"parameters": {}
+						"parameters": {
+							"SourcePath": "[parameters('trigger2_properties_pipeline1_parameters_SourcePath')]",
+							"SourceFile": "[parameters('trigger2_properties_pipeline1_parameters_SourceFile')]"
+						}
 					}
 				],
 				"type": "BlobEventsTrigger",
