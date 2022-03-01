@@ -1,0 +1,15 @@
+{
+	"name": "testname",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"serviceEndpoint": "https://datafactorystoragelava.blob.core.windows.net",
+			"accountKind": "StorageV2"
+		},
+		"connectVia": {
+			"referenceName": "intergrationruntimetest",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
