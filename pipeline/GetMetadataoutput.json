@@ -45,7 +45,15 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
-					"cases": []
+					"on": {
+						"value": "@activity('Get Metadata1').output",
+						"type": "Expression"
+					},
+					"cases": [
+						{
+							"value": "Case1"
+						}
+					]
 				}
 			}
 		],
