@@ -4,8 +4,14 @@
 		"annotations": [],
 		"type": "AzureBlobStorage",
 		"typeProperties": {
-			"serviceEndpoint": "https://datafactorystoragelava.blob.core.windows.net",
-			"accountKind": "StorageV2"
+			"sasUri": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "keyvault_lava",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "BlobSAS"
+			}
 		}
 	}
 }
