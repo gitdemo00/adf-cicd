@@ -1,8 +1,8 @@
 {
-	"name": "EmploeeEmail",
+	"name": "deptblob",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "Emailblob",
+			"referenceName": "inputblob",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "Employee.csv",
+				"fileName": "Department.csv",
 				"container": "emailinput"
 			},
 			"columnDelimiter": ",",
@@ -20,12 +20,11 @@
 		},
 		"schema": [
 			{
+				"name": "DeptID",
 				"type": "String"
 			},
 			{
-				"type": "String"
-			},
-			{
+				"name": "DeptName",
 				"type": "String"
 			}
 		]
