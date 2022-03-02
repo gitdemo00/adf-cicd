@@ -1,0 +1,12 @@
+{
+	"name": "lookupforeach",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lookupforeach",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
