@@ -1,0 +1,25 @@
+{
+	"name": "clienttest",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "clientrepro",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2022-03-28T19:50:00Z",
+				"endTime": "2022-03-29T19:50:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

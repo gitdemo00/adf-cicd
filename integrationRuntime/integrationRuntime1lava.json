@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntime1lava",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "SHIR integration"
+	}
+}
