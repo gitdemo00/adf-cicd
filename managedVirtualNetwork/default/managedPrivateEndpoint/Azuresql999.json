@@ -1,0 +1,7 @@
+{
+	"name": "Azuresql999",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/0aab0878-84bf-420d-80f7-56df0f7e251b/resourceGroups/999test/providers/Microsoft.Sql/servers/999testserv",
+		"groupId": "sqlServer"
+	}
+}
