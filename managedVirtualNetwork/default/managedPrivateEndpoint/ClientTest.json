@@ -1,0 +1,7 @@
+{
+	"name": "ClientTest",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/0aab0878-84bf-420d-80f7-56df0f7e251b/resourceGroups/MVetnettest/providers/Microsoft.Storage/storageAccounts/testcustomer",
+		"groupId": "blob"
+	}
+}
