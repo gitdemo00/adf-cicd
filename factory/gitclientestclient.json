@@ -1,0 +1,9 @@
+{
+	"name": "gitclientestclient",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3f188c5f-efbd-4adb-8d53-5c24579ea7ed",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}
