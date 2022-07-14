@@ -1,0 +1,24 @@
+{
+	"name": "AzureDataLakeStore1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://asimov-prod-data-c15.azuredatalakestore.net/webhdfs/v1",
+			"servicePrincipalId": "8800ccd2-c5ae-49df-b209-de1d47f507a8",
+			"servicePrincipalKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "AppSettings--AzureDataLakeAccount--ClientSecret",
+				"secretVersion": "4634309355ad48ba9041385581c3d2ad"
+			},
+			"tenant": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+			"subscriptionId": "932f56c7-38bf-4254-a4aa-50dbf02c55d9",
+			"resourceGroupName": "conv"
+		}
+	}
+}

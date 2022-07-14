@@ -1,0 +1,3486 @@
+{
+	"name": "CosmosDbSqlApiCollection2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "McApiCosmosDbProd",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {
+			"type": "object",
+			"properties": {
+				"IsDeleted": {
+					"type": "boolean"
+				},
+				"VstsMeasure": {
+					"type": "object",
+					"properties": {
+						"OSG_ProductFamily": {
+							"type": "null"
+						},
+						"OSG_Product": {
+							"type": "null"
+						},
+						"OSG_PMOwner": {
+							"type": "null"
+						},
+						"OSG_DevOwner": {
+							"type": "null"
+						},
+						"OSG_QualityOwner": {
+							"type": "null"
+						},
+						"OSG_ServiceEngOwner": {
+							"type": "null"
+						},
+						"OSG_Measure_MeasureType": {
+							"type": "string"
+						},
+						"OSG_Category": {
+							"type": "string"
+						},
+						"OSG_Measure_SubjectiveOrObjective": {
+							"type": "string"
+						},
+						"OSG_SubCategory": {
+							"type": "null"
+						},
+						"OSG_Measure_MeasureResult": {
+							"type": "null"
+						},
+						"OSG_StatusDate": {
+							"type": "null"
+						},
+						"OSG_Measure_OverallStatusComment": {
+							"type": "null"
+						},
+						"OSG_Measure_CustomerBuildNumber": {
+							"type": "null"
+						},
+						"OSG_Measure_DataSource": {
+							"type": "null"
+						},
+						"OSG_ShowOnReport": {
+							"type": "string"
+						},
+						"OSG_Measure_OverallStatus": {
+							"type": "string"
+						},
+						"OSG_Measure_MeasureTarget": {
+							"type": "integer"
+						},
+						"OSG_FinalTarget": {
+							"type": "null"
+						},
+						"OSG_Measure_MeasureOperator": {
+							"type": "string"
+						},
+						"OSG_Measure_UnitOfMeasure": {
+							"type": "string"
+						},
+						"OSG_DevicePlatform": {
+							"type": "null"
+						},
+						"OSG_NumInstances": {
+							"type": "integer"
+						},
+						"OSG_Measure_UpperLimit": {
+							"type": "integer"
+						},
+						"OSG_Measure_LowerLimit": {
+							"type": "integer"
+						},
+						"Microsoft_VSTS_Common_Priority": {
+							"type": "integer"
+						},
+						"OSG_Rank": {
+							"type": "integer"
+						},
+						"OSG_TeamOwner": {
+							"type": "null"
+						},
+						"Microsoft_VSTS_Common_CustomString01": {
+							"type": "null"
+						},
+						"Microsoft_VSTS_Common_CustomString02": {
+							"type": "null"
+						},
+						"Microsoft_VSTS_Common_CustomString03": {
+							"type": "null"
+						},
+						"Microsoft_VSTS_Common_CustomString04": {
+							"type": "null"
+						},
+						"Microsoft_VSTS_Common_CustomString05": {
+							"type": "null"
+						},
+						"Microsoft_VSTS_Common_CustomString06": {
+							"type": "null"
+						},
+						"Microsoft_VSTS_Common_CustomString07": {
+							"type": "null"
+						},
+						"Microsoft_VSTS_Common_CustomString08": {
+							"type": "null"
+						},
+						"Microsoft_VSTS_Common_CustomString09": {
+							"type": "null"
+						},
+						"Microsoft_VSTS_Common_CustomString10": {
+							"type": "null"
+						},
+						"SyncTag": {
+							"type": "string"
+						},
+						"Id": {
+							"type": "integer"
+						},
+						"Revision": {
+							"type": "integer"
+						},
+						"IsDeleted": {
+							"type": "boolean"
+						},
+						"DeleteDate": {
+							"type": "null"
+						},
+						"Tags": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"PartialAreaPaths": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"State": {
+							"type": "string"
+						},
+						"Title": {
+							"type": "string"
+						},
+						"WorkItemType": {
+							"type": "string"
+						},
+						"AreaPath": {
+							"type": "string"
+						},
+						"TagNames": {
+							"type": "string"
+						},
+						"IterationPath": {
+							"type": "string"
+						},
+						"Reason": {
+							"type": "string"
+						},
+						"AssignedTo": {
+							"type": "string"
+						},
+						"AssignedToName": {
+							"type": "string"
+						},
+						"AssignedToUpn": {
+							"type": "string"
+						},
+						"AssignedToAlias": {
+							"type": "string"
+						},
+						"CreatedDate": {
+							"type": "string"
+						},
+						"CreatedBy": {
+							"type": "string"
+						},
+						"CreatedByName": {
+							"type": "string"
+						},
+						"CreatedByUpn": {
+							"type": "string"
+						},
+						"CreatedByAlias": {
+							"type": "string"
+						},
+						"ChangedDate": {
+							"type": "string"
+						},
+						"ChangedBy": {
+							"type": "string"
+						},
+						"ChangedByName": {
+							"type": "string"
+						},
+						"ChangedByUpn": {
+							"type": "string"
+						},
+						"ChangedByAlias": {
+							"type": "string"
+						},
+						"DeleteNotified": {
+							"type": "boolean"
+						}
+					}
+				},
+				"MeasureToBugLinks": {
+					"type": "object",
+					"properties": {
+						"VstsBugIds": {
+							"type": "array",
+							"items": {
+								"type": "integer"
+							}
+						},
+						"Ids": {
+							"type": "array",
+							"items": {
+								"type": "integer"
+							}
+						}
+					}
+				},
+				"MeasureToTaskLinks": {
+					"type": "null"
+				},
+				"MeasureToDeliverableLinks": {
+					"type": "null"
+				},
+				"MeasureStory": {
+					"type": "null"
+				},
+				"MeasureConfigurationDocument": {
+					"type": "object",
+					"properties": {
+						"MeasureDefinition": {
+							"type": "object",
+							"properties": {
+								"MeasureId": {
+									"type": "integer"
+								},
+								"Author": {
+									"type": "string"
+								},
+								"DefinitionType": {
+									"type": "string"
+								},
+								"ByodConfig": {
+									"type": "null"
+								},
+								"PipelineConfig": {
+									"type": "object",
+									"properties": {
+										"UberScenario": {
+											"type": "object",
+											"properties": {
+												"serversettings": {
+													"type": "null"
+												},
+												"externaldata": {
+													"type": "null"
+												},
+												"diagscenario": {
+													"type": "object",
+													"properties": {
+														"scenariodb": {
+															"type": "object",
+															"properties": {
+																"scenariometadata": {
+																	"type": "object",
+																	"properties": {
+																		"diagtrackmanifest": {
+																			"type": "null"
+																		},
+																		"description": {
+																			"type": "null"
+																		},
+																		"justification": {
+																			"type": "null"
+																		},
+																		"scenarioname": {
+																			"type": "string"
+																		},
+																		"scenarioowneralias": {
+																			"type": "string"
+																		},
+																		"family": {
+																			"type": "null"
+																		},
+																		"group": {
+																			"type": "null"
+																		},
+																		"compcentralpath": {
+																			"type": "null"
+																		},
+																		"notificationaliaslist": {
+																			"type": "null"
+																		},
+																		"pool": {
+																			"type": "null"
+																		},
+																		"requesteddeploymentdate": {
+																			"type": "string"
+																		},
+																		"numberpackages": {
+																			"type": "integer"
+																		},
+																		"scenariolifespanindays": {
+																			"type": "integer"
+																		}
+																	}
+																},
+																"traceprofiles": {
+																	"type": "null"
+																}
+															}
+														},
+														"scenario": {
+															"type": "object",
+															"properties": {
+																"setup": {
+																	"type": "null"
+																},
+																"alwaysontrace": {
+																	"type": "null"
+																},
+																"triggers": {
+																	"type": "object",
+																	"properties": {
+																		"trigger": {
+																			"type": "array",
+																			"items": {
+																				"type": "object",
+																				"properties": {
+																					"Item": {
+																						"type": "null"
+																					},
+																					"triggername": {
+																						"type": "string"
+																					}
+																				}
+																			}
+																		},
+																		"filter": {
+																			"type": "null"
+																		}
+																	}
+																},
+																"escalation": {
+																	"type": "null"
+																},
+																"scxml": {
+																	"type": "object",
+																	"properties": {
+																		"Items": {
+																			"type": "array",
+																			"items": {
+																				"type": "object",
+																				"properties": {
+																					"$type": {
+																						"type": "string"
+																					},
+																					"transition": {
+																						"type": "array",
+																						"items": {
+																							"type": "object",
+																							"properties": {
+																								"Items": {
+																									"type": "array",
+																									"items": {
+																										"type": "object",
+																										"properties": {
+																											"$type": {
+																												"type": "string"
+																											},
+																											"Value": {
+																												"type": "string"
+																											}
+																										}
+																									}
+																								},
+																								"event": {
+																									"type": "string"
+																								},
+																								"target": {
+																									"type": "string"
+																								},
+																								"name": {
+																									"type": "string"
+																								},
+																								"ispartasourceevent": {
+																									"type": "string"
+																								}
+																							}
+																						}
+																					},
+																					"id": {
+																						"type": "string"
+																					}
+																				}
+																			}
+																		},
+																		"version": {
+																			"type": "string"
+																		},
+																		"datamodel": {
+																			"type": "string"
+																		},
+																		"initial": {
+																			"type": "string"
+																		}
+																	}
+																},
+																"schemaversion": {
+																	"type": "integer"
+																},
+																"scenarioid": {
+																	"type": "string"
+																},
+																"scenarioname": {
+																	"type": "string"
+																},
+																"reporteverynth": {
+																	"type": "integer"
+																},
+																"maxcompletionreports": {
+																	"type": "integer"
+																},
+																"maxcancelreports": {
+																	"type": "integer"
+																},
+																"maxfailurereports": {
+																	"type": "integer"
+																},
+																"maxdurationms": {
+																	"type": "integer"
+																},
+																"skipscenariocompletionreporting": {
+																	"type": "integer"
+																},
+																"matchbehavior": {
+																	"type": "string"
+																},
+																"maxinflightinstances": {
+																	"type": "integer"
+																}
+															}
+														},
+														"schemaversion": {
+															"type": "integer"
+														}
+													}
+												},
+												"scenariometrics": {
+													"type": "object",
+													"properties": {
+														"instancemetrics": {
+															"type": "array",
+															"items": {
+																"type": "object",
+																"properties": {
+																	"function": {
+																		"type": "object",
+																		"properties": {
+																			"parameters": {
+																				"type": "array",
+																				"items": {
+																					"type": "string"
+																				}
+																			},
+																			"name": {
+																				"type": "string"
+																			},
+																			"returns": {
+																				"type": "string"
+																			}
+																		}
+																	},
+																	"postprocessingdata": {
+																		"type": "object",
+																		"properties": {
+																			"statistictype": {
+																				"type": "object",
+																				"properties": {
+																					"Item": {
+																						"type": "object"
+																					},
+																					"ItemElementName": {
+																						"type": "string"
+																					}
+																				}
+																			},
+																			"tpi": {
+																				"type": "null"
+																			}
+																		}
+																	},
+																	"experimentprocessingdata": {
+																		"type": "null"
+																	},
+																	"flightid": {
+																		"type": "null"
+																	},
+																	"optionalkeys": {
+																		"type": "null"
+																	},
+																	"extractions": {
+																		"type": "null"
+																	},
+																	"enrichments": {
+																		"type": "null"
+																	},
+																	"offramps": {
+																		"type": "null"
+																	},
+																	"packagetype": {
+																		"type": "array",
+																		"items": {
+																			"type": "object",
+																			"properties": {
+																				"package": {
+																					"type": "string"
+																				}
+																			}
+																		}
+																	},
+																	"inneraggregation": {
+																		"type": "object",
+																		"properties": {
+																			"scope": {
+																				"type": "string"
+																			},
+																			"method": {
+																				"type": "string"
+																			},
+																			"thresholdOperatorSpecified": {
+																				"type": "boolean"
+																			},
+																			"thresholdValue1Specified": {
+																				"type": "boolean"
+																			},
+																			"thresholdValue2Specified": {
+																				"type": "boolean"
+																			},
+																			"scopeMinCountSpecified": {
+																				"type": "boolean"
+																			},
+																			"scopeMaxCountSpecified": {
+																				"type": "boolean"
+																			}
+																		}
+																	},
+																	"measureclasses": {
+																		"type": "null"
+																	},
+																	"tfsid": {
+																		"type": "integer"
+																	},
+																	"version": {
+																		"type": "integer"
+																	},
+																	"guid": {
+																		"type": "string"
+																	},
+																	"name": {
+																		"type": "string"
+																	},
+																	"reportingformat": {
+																		"type": "null"
+																	}
+																}
+															}
+														},
+														"schemaversion": {
+															"type": "integer"
+														}
+													}
+												},
+												"designer": {
+													"type": "string"
+												},
+												"releasefilters": {
+													"type": "null"
+												},
+												"scenariotarget": {
+													"type": "string"
+												},
+												"datascenarioskind": {
+													"type": "string"
+												},
+												"datascenariospipelineoutputkindSpecified": {
+													"type": "boolean"
+												},
+												"schemaversion": {
+													"type": "integer"
+												}
+											}
+										},
+										"Designer": {
+											"type": "string"
+										},
+										"DenominatorMeasureId": {
+											"type": "null"
+										}
+									}
+								},
+								"VsoConfig": {
+									"type": "object",
+									"properties": {
+										"Unit": {
+											"type": "null"
+										},
+										"DataSource": {
+											"type": "null"
+										}
+									}
+								},
+								"PerftrackConfig": {
+									"type": "null"
+								},
+								"KustoConfig": {
+									"type": "null"
+								},
+								"CompositeConfig": {
+									"type": "null"
+								},
+								"CosmosConfig": {
+									"type": "object",
+									"properties": {
+										"Script": {
+											"type": "string"
+										},
+										"SampleStreamPath": {
+											"type": "string"
+										},
+										"GeneratedUberScenario": {
+											"type": "object",
+											"properties": {
+												"serversettings": {
+													"type": "null"
+												},
+												"externaldata": {
+													"type": "null"
+												},
+												"diagscenario": {
+													"type": "object",
+													"properties": {
+														"scenariodb": {
+															"type": "object",
+															"properties": {
+																"scenariometadata": {
+																	"type": "object",
+																	"properties": {
+																		"diagtrackmanifest": {
+																			"type": "null"
+																		},
+																		"description": {
+																			"type": "null"
+																		},
+																		"justification": {
+																			"type": "null"
+																		},
+																		"scenarioname": {
+																			"type": "string"
+																		},
+																		"scenarioowneralias": {
+																			"type": "string"
+																		},
+																		"family": {
+																			"type": "null"
+																		},
+																		"group": {
+																			"type": "null"
+																		},
+																		"compcentralpath": {
+																			"type": "null"
+																		},
+																		"notificationaliaslist": {
+																			"type": "null"
+																		},
+																		"pool": {
+																			"type": "null"
+																		},
+																		"requesteddeploymentdate": {
+																			"type": "string"
+																		},
+																		"numberpackages": {
+																			"type": "integer"
+																		},
+																		"scenariolifespanindays": {
+																			"type": "integer"
+																		}
+																	}
+																},
+																"traceprofiles": {
+																	"type": "null"
+																}
+															}
+														},
+														"scenario": {
+															"type": "object",
+															"properties": {
+																"setup": {
+																	"type": "null"
+																},
+																"alwaysontrace": {
+																	"type": "null"
+																},
+																"triggers": {
+																	"type": "object",
+																	"properties": {
+																		"trigger": {
+																			"type": "array",
+																			"items": {
+																				"type": "object",
+																				"properties": {
+																					"Item": {
+																						"type": "null"
+																					},
+																					"triggername": {
+																						"type": "string"
+																					}
+																				}
+																			}
+																		},
+																		"filter": {
+																			"type": "null"
+																		}
+																	}
+																},
+																"escalation": {
+																	"type": "null"
+																},
+																"scxml": {
+																	"type": "object",
+																	"properties": {
+																		"Items": {
+																			"type": "array",
+																			"items": {
+																				"type": "object",
+																				"properties": {
+																					"$type": {
+																						"type": "string"
+																					},
+																					"transition": {
+																						"type": "array",
+																						"items": {
+																							"type": "object",
+																							"properties": {
+																								"Items": {
+																									"type": "null"
+																								},
+																								"event": {
+																									"type": "string"
+																								},
+																								"target": {
+																									"type": "string"
+																								},
+																								"name": {
+																									"type": "string"
+																								},
+																								"ispartasourceevent": {
+																									"type": "string"
+																								}
+																							}
+																						}
+																					},
+																					"id": {
+																						"type": "string"
+																					}
+																				}
+																			}
+																		},
+																		"version": {
+																			"type": "string"
+																		},
+																		"datamodel": {
+																			"type": "string"
+																		},
+																		"initial": {
+																			"type": "string"
+																		}
+																	}
+																},
+																"schemaversion": {
+																	"type": "integer"
+																},
+																"scenarioid": {
+																	"type": "string"
+																},
+																"scenarioname": {
+																	"type": "string"
+																},
+																"reporteverynth": {
+																	"type": "integer"
+																},
+																"maxcompletionreports": {
+																	"type": "integer"
+																},
+																"maxcancelreports": {
+																	"type": "integer"
+																},
+																"maxfailurereports": {
+																	"type": "integer"
+																},
+																"maxdurationms": {
+																	"type": "integer"
+																},
+																"skipscenariocompletionreporting": {
+																	"type": "integer"
+																},
+																"matchbehavior": {
+																	"type": "string"
+																},
+																"maxinflightinstances": {
+																	"type": "integer"
+																}
+															}
+														},
+														"schemaversion": {
+															"type": "integer"
+														}
+													}
+												},
+												"scenariometrics": {
+													"type": "object",
+													"properties": {
+														"instancemetrics": {
+															"type": "array",
+															"items": {
+																"type": "object",
+																"properties": {
+																	"function": {
+																		"type": "object",
+																		"properties": {
+																			"parameters": {
+																				"type": "array",
+																				"items": {
+																					"type": "string"
+																				}
+																			},
+																			"name": {
+																				"type": "string"
+																			},
+																			"returns": {
+																				"type": "string"
+																			}
+																		}
+																	},
+																	"postprocessingdata": {
+																		"type": "object",
+																		"properties": {
+																			"statistictype": {
+																				"type": "object",
+																				"properties": {
+																					"Item": {
+																						"type": "object"
+																					},
+																					"ItemElementName": {
+																						"type": "string"
+																					}
+																				}
+																			},
+																			"tpi": {
+																				"type": "null"
+																			}
+																		}
+																	},
+																	"experimentprocessingdata": {
+																		"type": "null"
+																	},
+																	"flightid": {
+																		"type": "null"
+																	},
+																	"optionalkeys": {
+																		"type": "null"
+																	},
+																	"extractions": {
+																		"type": "null"
+																	},
+																	"enrichments": {
+																		"type": "null"
+																	},
+																	"offramps": {
+																		"type": "null"
+																	},
+																	"packagetype": {
+																		"type": "array",
+																		"items": {
+																			"type": "object",
+																			"properties": {
+																				"package": {
+																					"type": "string"
+																				}
+																			}
+																		}
+																	},
+																	"inneraggregation": {
+																		"type": "object",
+																		"properties": {
+																			"scope": {
+																				"type": "string"
+																			},
+																			"method": {
+																				"type": "string"
+																			},
+																			"thresholdOperatorSpecified": {
+																				"type": "boolean"
+																			},
+																			"thresholdValue1Specified": {
+																				"type": "boolean"
+																			},
+																			"thresholdValue2Specified": {
+																				"type": "boolean"
+																			},
+																			"scopeMinCountSpecified": {
+																				"type": "boolean"
+																			},
+																			"scopeMaxCountSpecified": {
+																				"type": "boolean"
+																			}
+																		}
+																	},
+																	"measureclasses": {
+																		"type": "array"
+																	},
+																	"tfsid": {
+																		"type": "integer"
+																	},
+																	"version": {
+																		"type": "integer"
+																	},
+																	"guid": {
+																		"type": "string"
+																	},
+																	"name": {
+																		"type": "string"
+																	},
+																	"reportingformat": {
+																		"type": "null"
+																	}
+																}
+															}
+														},
+														"schemaversion": {
+															"type": "integer"
+														}
+													}
+												},
+												"designer": {
+													"type": "null"
+												},
+												"releasefilters": {
+													"type": "array"
+												},
+												"scenariotarget": {
+													"type": "string"
+												},
+												"datascenarioskind": {
+													"type": "string"
+												},
+												"datascenariospipelineoutputkind": {
+													"type": "string"
+												},
+												"datascenariospipelineoutputkindSpecified": {
+													"type": "boolean"
+												},
+												"schemaversion": {
+													"type": "integer"
+												}
+											}
+										},
+										"AggregationPackages": {
+											"type": "string"
+										},
+										"MetricDataType": {
+											"type": "string"
+										},
+										"StatisticType": {
+											"type": "string"
+										},
+										"MeasureClasses": {
+											"type": "array",
+											"items": {
+												"type": "object",
+												"properties": {
+													"MeasureClass": {
+														"type": "string"
+													},
+													"NonAggregatableDimensionNames": {
+														"type": "null"
+													}
+												}
+											}
+										},
+										"DataScenariosPipelineOutputKind": {
+											"type": "string"
+										},
+										"InstanceMetricInnerAggregationScope": {
+											"type": "string"
+										},
+										"InstanceMetricInnerAggregationMethod": {
+											"type": "string"
+										},
+										"ThresholdOperator": {
+											"type": "string"
+										},
+										"ThresholdValue1": {
+											"type": "null"
+										},
+										"ThresholdValue2": {
+											"type": "null"
+										},
+										"ScopeMinCount": {
+											"type": "null"
+										},
+										"ScopeMaxCount": {
+											"type": "null"
+										},
+										"DenominatorId": {
+											"type": "null"
+										},
+										"PercentileRank": {
+											"type": "integer"
+										},
+										"IngestionDataSource": {
+											"type": "object",
+											"properties": {
+												"IngestionCadenceInHours": {
+													"type": "integer"
+												},
+												"InstanceSchemaMapping": {
+													"type": "object",
+													"properties": {
+														"EntityKey": {
+															"type": "string"
+														},
+														"EntityKeyType": {
+															"type": "string"
+														},
+														"InstanceTime": {
+															"type": "string"
+														},
+														"Value": {
+															"type": "string"
+														},
+														"InstanceCount": {
+															"type": "null"
+														}
+													}
+												},
+												"StartTime": {
+													"type": "string"
+												},
+												"AggregationType": {
+													"type": "string"
+												}
+											}
+										},
+										"DependencyStreams": {
+											"type": "array",
+											"items": {
+												"type": "string"
+											}
+										},
+										"CosmosParameters": {
+											"type": "object"
+										}
+									}
+								},
+								"PublishDate": {
+									"type": "string"
+								},
+								"StartTime": {
+									"type": "null"
+								},
+								"EndTime": {
+									"type": "null"
+								},
+								"MajorVersion": {
+									"type": "integer"
+								},
+								"MinorVersion": {
+									"type": "integer"
+								},
+								"FirstBuild": {
+									"type": "integer"
+								},
+								"LastBuild": {
+									"type": "null"
+								},
+								"IsLastBuildLatest": {
+									"type": "boolean"
+								},
+								"ModifiedUtcTime": {
+									"type": "string"
+								}
+							}
+						},
+						"DocumentId": {
+							"type": "string"
+						},
+						"Sections": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"UpdatedByUpn": {
+							"type": "string"
+						},
+						"Revision": {
+							"type": "integer"
+						},
+						"CustomDimensions": {
+							"type": "object",
+							"properties": {
+								"Extractions": {
+									"type": "null"
+								},
+								"Enrichments": {
+									"type": "array",
+									"items": {
+										"type": "object",
+										"properties": {
+											"SourceDataset": {
+												"type": "string"
+											},
+											"JoinKeys": {
+												"type": "object",
+												"properties": {
+													"DeviceId": {
+														"type": "string"
+													}
+												}
+											},
+											"EnrichmentColumns": {
+												"type": "array",
+												"items": {
+													"type": "string"
+												}
+											},
+											"EnrichmentRetryColumns": {
+												"type": "array"
+											}
+										}
+									}
+								},
+								"AllDimensions": {
+									"type": "object",
+									"properties": {
+										"IsWVDSessionHost": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"DeviceFamily": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"Branch": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"Build": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"Revision": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"authenticatorAttachment": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "null"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"retVal": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "null"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"tryCtap": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "null"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"tryNgc": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "null"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"version": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "null"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"PredictedPriceBand": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"Train": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"Locale": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"Audience": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"IsTestLab": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"IsVirtual": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"DeviceOem": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"DeviceModel": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"ProcessorManufacturer": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"ProcessorModel": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"ProcessorCores": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"Ram": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"LandingBuild": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "null"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"LandingRevision": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "null"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"UpdateId": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "null"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"TelemetryLevel": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"DeviceSampleRate": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"IsSVEligible": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"SkuEdition": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"Ring": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"Source": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"ArchFlavor": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"IsCommercial": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"IsRetail": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"IsSawGuest": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"IsSawHost": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										},
+										"WPId": {
+											"type": "object",
+											"properties": {
+												"Source": {
+													"type": "object",
+													"properties": {
+														"SourceType": {
+															"type": "string"
+														},
+														"Identifier": {
+															"type": "string"
+														}
+													}
+												},
+												"FriendlyName": {
+													"type": "string"
+												},
+												"OffRamps": {
+													"type": "object",
+													"properties": {
+														"reporting": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														},
+														"failureInvestigation": {
+															"type": "object",
+															"properties": {
+																"Status": {
+																	"type": "string"
+																},
+																"UniqueCount": {
+																	"type": "null"
+																}
+															}
+														}
+													}
+												},
+												"IsAggregatable": {
+													"type": "boolean"
+												},
+												"IsStandardDimension": {
+													"type": "boolean"
+												},
+												"DimensionFilters": {
+													"type": "null"
+												}
+											}
+										}
+									}
+								},
+								"DimensionSets": {
+									"type": "null"
+								},
+								"ModifiedUtcTime": {
+									"type": "string"
+								}
+							}
+						},
+						"ConfidenceIntervalSettings": {
+							"type": "object",
+							"properties": {
+								"enabled": {
+									"type": "boolean"
+								},
+								"intervalType": {
+									"type": "string"
+								},
+								"ModifiedUtcTime": {
+									"type": "string"
+								}
+							}
+						},
+						"DataVolume": {
+							"type": "object",
+							"properties": {
+								"ReleaseFilters": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								},
+								"RowVolumeReason": {
+									"type": "null"
+								},
+								"RowVolumeReasons": {
+									"type": "null"
+								},
+								"RowVolumeCategory": {
+									"type": "null"
+								},
+								"ModifiedUtcTime": {
+									"type": "string"
+								}
+							}
+						},
+						"Generated": {
+							"type": "object",
+							"properties": {
+								"RowVolume": {
+									"type": "integer"
+								},
+								"RowVolumePolicyName": {
+									"type": "string"
+								},
+								"RowVolumeCategory": {
+									"type": "string"
+								},
+								"IsMtM": {
+									"type": "boolean"
+								},
+								"ModifiedUtcTime": {
+									"type": "string"
+								}
+							}
+						},
+						"DeviceThresholdProfiles": {
+							"type": "object",
+							"properties": {
+								"Profiles": {
+									"type": "object",
+									"properties": {
+										"DIRDefault": {
+											"type": "object",
+											"properties": {
+												"ThresholdOperator": {
+													"type": "string"
+												},
+												"ThresholdValue1": {
+													"type": "integer"
+												},
+												"ThresholdValue2": {
+													"type": "null"
+												}
+											}
+										}
+									}
+								},
+								"ModifiedUtcTime": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				},
+				"NrtMeasureMetadata": {
+					"type": "null"
+				},
+				"TargetProfiles": {
+					"type": "object",
+					"properties": {
+						"SyncTag": {
+							"type": "string"
+						},
+						"TargetProfiles": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"DeviceFamilyId": {
+										"type": "null"
+									},
+									"DeviceFamily": {
+										"type": "null"
+									},
+									"OptionalIdentifier": {
+										"type": "null"
+									},
+									"SyncFromVsts": {
+										"type": "boolean"
+									},
+									"ShipTarget": {
+										"type": "integer"
+									},
+									"RecallTarget": {
+										"type": "integer"
+									},
+									"AspirationalTarget": {
+										"type": "number"
+									},
+									"MinimumCount": {
+										"type": "integer"
+									},
+									"PassingCondition": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					}
+				},
+				"StoryMetricsTargetProfiles": {
+					"type": "null"
+				},
+				"EventData": {
+					"type": "object",
+					"properties": {
+						"SyncTag": {
+							"type": "null"
+						},
+						"MeasureId": {
+							"type": "integer"
+						},
+						"Status": {
+							"type": "string"
+						},
+						"Events": {
+							"type": "array"
+						}
+					}
+				},
+				"ClassicAuthoringMeasureMetadata": {
+					"type": "object",
+					"properties": {
+						"SyncTag": {
+							"type": "null"
+						},
+						"IsTpi": {
+							"type": "boolean"
+						},
+						"Goal": {
+							"type": "null"
+						},
+						"UpperBound": {
+							"type": "null"
+						},
+						"PackageTypes": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"Id": {
+										"type": "integer"
+									},
+									"Name": {
+										"type": "string"
+									}
+								}
+							}
+						},
+						"StatisticType": {
+							"type": "object",
+							"properties": {
+								"Id": {
+									"type": "integer"
+								},
+								"Name": {
+									"type": "string"
+								}
+							}
+						},
+						"IsInnerAggregationEnabled": {
+							"type": "boolean"
+						},
+						"InnerAggregationMethod": {
+							"type": "string"
+						},
+						"ThresholdOperator": {
+							"type": "null"
+						},
+						"ThresholdValue1": {
+							"type": "null"
+						},
+						"ThresholdValue2": {
+							"type": "null"
+						},
+						"ScopeMinCount": {
+							"type": "null"
+						},
+						"ScopeMaxCount": {
+							"type": "null"
+						},
+						"DenominatorMeasureId": {
+							"type": "null"
+						},
+						"ManifestType": {
+							"type": "object",
+							"properties": {
+								"Id": {
+									"type": "integer"
+								},
+								"Name": {
+									"type": "string"
+								}
+							}
+						},
+						"ManifestTypeId": {
+							"type": "integer"
+						},
+						"IsLatestStream": {
+							"type": "null"
+						},
+						"MajorVersion": {
+							"type": "integer"
+						}
+					}
+				},
+				"SamplingStatus": {
+					"type": "null"
+				},
+				"ModifiedProps": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"DocumentId": {
+					"type": "string"
+				},
+				"CreatedBy": {
+					"type": "string"
+				},
+				"Version": {
+					"type": "integer"
+				},
+				"CreatedTimeUtc": {
+					"type": "string"
+				},
+				"IsArchived": {
+					"type": "boolean"
+				}
+			}
+		},
+		"typeProperties": {
+			"collectionName": "MeasureDocument"
+		}
+	}
+}

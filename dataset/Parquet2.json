@@ -1,0 +1,20 @@
+{
+	"name": "Parquet2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStore1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureDataLakeStoreLocation",
+				"fileName": "MCDocTest.parquet",
+				"folderPath": "/local/PublicPartner/MCMetadata/Test/"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
